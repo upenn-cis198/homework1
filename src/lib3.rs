@@ -61,3 +61,16 @@ fn new_ref_str() -> & str {
 fn pick_longest2(s1: & str, s2: & str) -> & str{
     unimplemented!()
 }
+
+// Problem 7.
+// Write a function with a type signature which type checks the following test:
+// and passes the test.
+// This function compares it's second argument againsts all elements in it's first
+// argument, returning those that are less than (<).
+fn find_lesser_values_test() {
+    assert_eq!(find_lesser_values(& vec!["foo", "bar", "foobar"], "zzzzzzzz"),
+               vec!["foo", "bar", "foobar"]);
+    assert_eq!(find_lesser_values(& vec!["foo", "bar", "foobar"], "bars"),
+               vec!["bar"]);
+    // Add more tests.
+}

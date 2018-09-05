@@ -1,9 +1,5 @@
 #![allow(dead_code)]
 
-use std::path::Path;
-use std::fs::File;
-use std::io::Read;
-
 // Uncomment these to have Rust compile the other files as well.
 // mod lib2;
 // mod lib3;

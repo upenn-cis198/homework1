@@ -1,3 +1,6 @@
+use std::fs::File;
+use std::io::Read;
+
 // Part 2.
 // Make the following failing functions/tests pass.
 // Answer the questions as a comment next to the problems.
@@ -55,7 +58,7 @@ fn pick_longest_tests() {
 // functions to implement.
 // Use .expect("ignoring error: ") to ignore the Result<...> type in open() and
 // read_to_string. We will handle error handling later.
-fn print_contents_of_file_original(path : &str) -> String {
+fn print_contents_of_file(path : &str) -> String {
     unimplemented!()
 }
 
