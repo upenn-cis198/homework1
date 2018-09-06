@@ -71,7 +71,7 @@ fn print_contents_of_file(path : &str) -> String {
 fn add1_test() {
     let mut x = 1;
     add1(x);
-    assert_eq!(1, 2);
+    assert_eq!(x, 2);
 }
 
 fn add1(mut x : i32) -> () {
