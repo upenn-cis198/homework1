@@ -37,7 +37,7 @@ fn split_clone_tests(){
 
 #[test]
 fn pick_longest_tests() {
-    assert_eq!(pick_longest("cat".to_string(), "dog".to_string()), "cat");
+    assert_eq!(pick_longest(& "cat".to_string(), & "dog".to_string()), "cat");
 }
 
 // Extra
