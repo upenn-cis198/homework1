@@ -1,6 +1,8 @@
 use std::fs::File;
 use std::io::Read;
 
+// DO NOT START ON PART TWO. THIS FILE WILL CHANGE.
+
 // Part 2.
 // Make the following failing functions/tests pass.
 // Answer the questions as a comment next to the problems.
@@ -40,14 +42,12 @@ fn pick_longest_tests() {
     assert_eq!(pick_longest(& "cat".to_string(), & "dog".to_string()), "cat");
 }
 
-// Extra
 //For the curious, attempt to return reference, that is:
 //
 // pick_longerst(???) -> &str
 //
 // What goes wrong when you try to implement this function? Why is this
 // the case?
-// End Extra
 
 
 // Problem 3.

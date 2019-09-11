@@ -1,3 +1,5 @@
+
+// DO NOT START ON PART TWO. THIS FILE WILL CHANGE.
 // Part 3.
 // Lifetimes and move semantics.
 
@@ -74,3 +76,6 @@ fn find_lesser_values_test() {
                vec!["bar"]);
     // Add more tests.
 }
+
+// Problem 8
+// TODO Hashmap problem.
