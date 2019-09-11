@@ -24,5 +24,7 @@ Once all tests are working on `lib.rs` uncomment as needed to allow the other mo
 
 After the first lecture you should be able to complete `lib.rs` and `lib2.rs`.
 
+Ensure that your `clippy` and `rustfmt` are happy with your code!
+
 # Submissions
-You have two weeks to do this assignment, it is due the September 18th at midnight!
+You have two weeks to do this assignment, it is due the September 25th at midnight!
