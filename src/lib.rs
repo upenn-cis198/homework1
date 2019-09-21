@@ -56,7 +56,7 @@ fn string_concat(s1: &String, s2: &String) -> String {
 }
 
 // Problem 7
-// Convert a Vec<String> into a comma delimited String. Assume all strings
+// Convert a Vec<String> into a Vec<u64>. Assume all strings
 // are correct numbers! We will do error handling later. Use
 // `.expect("ignoring error")` to ignore Result from parse()
 // See https://doc.rust-lang.org/std/primitive.str.html#method.parse
