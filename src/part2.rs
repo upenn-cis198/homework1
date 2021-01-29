@@ -1,6 +1,6 @@
 /*
-    CIS198 Homework 1: Implementing Functions
-    Part 2
+    CIS198 Homework 1
+    Part 2: Strings, files, and mutability
 
     Make the following failing functions/tests pass.
     Answer the questions as a comment next to the problems.
