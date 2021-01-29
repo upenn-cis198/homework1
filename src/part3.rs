@@ -2,6 +2,11 @@
 // Part 3.
 // Lifetimes and move semantics.
 
+// Problem 1
+pub fn swap_ints(x1: &mut i32, x2: &mut i32) {
+    unimplemented!()
+}
+
 // Problem 1.
 // What went wrong? Copy strings properly.
 #[test]

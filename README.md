@@ -35,4 +35,4 @@ After the first lecture you should be able to complete `part1.rs`.
 
 ## Deadline
 
-You have two weeks to do this assignment, it is due Feb 11th at 11:59pm!
+You have two weeks to do this assignment; it is due Feb 11th at 11:59pm Eastern.
