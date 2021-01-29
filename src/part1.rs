@@ -2,8 +2,9 @@
     CIS198 Homework 1
     Part 1: Implementing functions
 
-    Complete and write at least one unit test for each function.
+    Complete and write at least one unit test for each function you implement.
     If it already has a unit test, either add assertions to it or add a new one.
+    Also answer the questions in text.
 */
 
 // Remove these once you are done editing the file!

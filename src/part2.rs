@@ -25,21 +25,21 @@ use std::io::Read;
 // split_ref must have the return type Vec<&str>
 // split_clone must have the return type Vec<String>
 
-#[test]
-fn split_ref_tests(){
-    let string = "Hello World!".to_string();
-    assert_eq!(split_ref(& string), ["Hello", "World!"]);
-    assert_eq!(split_ref("Hello World!"), & ["Hello", "World!"]);
-    assert_eq!(split_ref("Hello World!"), vec!["Hello", "World!"]);
-}
+// #[test]
+// fn test_split_ref(){
+//     let string = "Hello World!".to_string();
+//     assert_eq!(split_ref(& string), ["Hello", "World!"]);
+//     assert_eq!(split_ref("Hello World!"), & ["Hello", "World!"]);
+//     assert_eq!(split_ref("Hello World!"), vec!["Hello", "World!"]);
+// }
 
-#[test]
-fn split_clone_tests(){
-    let string = "Hello World!".to_string();
-    assert_eq!(split_clone(& string), ["Hello", "World!"]);
-    assert_eq!(split_clone("Hello World!"), & ["Hello", "World!"]);
-    assert_eq!(split_clone("Hello World!"), vec!["Hello", "World!"]);
-}
+// #[test]
+// fn test_split_clone(){
+//     let string = "Hello World!".to_string();
+//     assert_eq!(split_clone(& string), ["Hello", "World!"]);
+//     assert_eq!(split_clone("Hello World!"), & ["Hello", "World!"]);
+//     assert_eq!(split_clone("Hello World!"), vec!["Hello", "World!"]);
+// }
 
 /*
     Problem 2: Longest string
@@ -50,7 +50,7 @@ fn split_clone_tests(){
 */
 
 // #[test]
-// fn pick_longest_tests() {
+// fn test_pick_longest {
 //     assert_eq!(
 //         pick_longest(& "cat".to_string(), & "dog".to_string()),
 //         "cat".to_string()
@@ -92,7 +92,7 @@ pub fn file_to_string(path: &str) -> String {
 */
 
 #[test]
-fn add1_test() {
+fn test_add1() {
     let mut x = 1;
     add1(x);
     assert_eq!(x, 2);
