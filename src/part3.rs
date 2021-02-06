@@ -16,9 +16,15 @@
 
     Implement the function that swaps two integers, and write unit tests.
 
-    Make sure you write a test for when x1 and x2 are the same!
-
     The Rust borrow checker may help avoid some possible bugs.
+
+    Then answer this question:
+    Q: A common source of error in swap implementations is failing to work if
+       the two references are the same. Why don't you need to worry about this
+       case in Rust?
+
+    (Try writing a unit test where they are both
+    the same, i.e. swap_ints(&mut x, &mut x).)
 */
 pub fn swap_ints(x1: &mut i32, x2: &mut i32) {
     unimplemented!()
@@ -103,8 +109,12 @@ fn duplicate_string(s: &str, times: usize) -> Vec<String> {
     Write two versions of a function which returns the longest string in a
     vector, using pick_longest2 as a helper function.
 
-    You can add lifetime specifiers if necessary.
-    What are the pros and cons of v1 and v2?
+    If the vector is empty, return "".
+
+    Q1. In pick_longest_in_v2, if you were to explicitly specify the lifetime
+        of the input and output, what should it be?
+
+    Q2. What are the pros and cons of v1 and v2?
 */
 
 fn pick_longest_in_v1(v: Vec<String>) -> String {
@@ -121,7 +131,7 @@ fn pick_longest_in_v2(v: Vec<&str>) -> &str {
     Write three versions of a function that pads a vector with zeros.
     Fail if the vector is larger than the desired length.
 
-    Use .clone() as necessary to make the unit tests compile.
+    Use .clone() if necessary to make any additional unit tests compile.
 
     Which of these functions do you prefer? Which is the most efficient?
 */
@@ -138,7 +148,7 @@ fn pad_with_zeros_v2(slice: &[usize], desired_len: usize) -> Vec<usize> {
 
 fn pad_with_zeros_v3(v: &mut Vec<usize>, desired_len: usize) {
     unimplemented!()
-    // debug_assert_eq!(result.len(), desired_len);
+    // debug_assert_eq!(v.len(), desired_len);
 }
 
 #[test]
